@@ -1,0 +1,1 @@
+{\n  "name": "Python 3 Dev Container",\n  "image": "mcr.microsoft.com/devcontainers/python:3.11",\n  "features": {},\n  "settings": {\n    "terminal.integrated.shell.linux": "/bin/bash"\n  },\n  "extensions": [\n    "ms-python.python",\n    "ms-toolsai.jupyter"\n  ],\n  "postCreateCommand": "pip install -r requirements.txt",\n  "forwardPorts": [],\n  "remoteUser": "vscode"\n}
